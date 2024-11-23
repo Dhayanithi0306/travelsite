@@ -1,0 +1,78 @@
+
+.con{
+    background-image: url(flight.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color:rgb(230, 43, 155);
+}
+.fa-brands.fa-facebook.fa-2x{
+color:blue;
+}
+.fa-duotone.fa-solid.fa-envelope.fa-2x{
+color:rgb(63, 59, 59);
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    text-align: center;
+    background-color:rgb(206, 216, 220);
+}
+
+.tit h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:black(73, 75, 76);
+}
+
+.ins {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.ins i {
+    color: #0077cc;
+}
+
+.ins h3 {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 0;
+}
+.ctn1{
+    padding:8px 15px;
+    background:rgb(6, 154, 253);
+    border-radius: 30px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 175%;
+}
+.ins{
+    background:transparent;
+    backdrop-filter: blur(20px);
+    color:#fff;
+    border-radius: 35px;
+    padding: 30px 40px;
+}
+.tit{
+    background:transparent;
+    backdrop-filter: blur(20px);
+    color:#010101;
+    border-radius: 25px;
+  
+}
+.a:hover {
+    font-size: 1.1em;
+}
+body{
+    background-color: rgb(206, 216, 220);
+}
+#p{
+    font-size: larger;
+}

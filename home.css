@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(men.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+}
+
+.wel h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.wel h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #020202;
+}
+.vis {
+    margin-top: 2em;
+    display: grid;
+    gap: 1em;
+    width: 100%;
+    max-width: 800px;
+}
+.vis button {
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.vis button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.vis button:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+ 
+    .wel h1 {
+        font-size: 2.5rem;
+    }
+
+    .wel h2 {
+        font-size: 1.8rem;
+    }
+
+    .vis {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+#a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.a{
+    margin-top: 5px;
+    font-weight: 600;
+   text-transform: uppercase;
+}
+#k {
+    color:#000000;
+    text-decoration: none;
+    width:350px;
+    height: 350px;
+    border-width: 35%;
+    padding:8px 15px;
+    font-weight: 500;
+    background-color: rgb(255, 140, 0);
+    border-radius: 25px;
+}
